@@ -19,12 +19,22 @@
           <label for="psw"><b>Location</b></label>
           <input type="password" placeholder="Enter your location" name="psw" id="psw" required>
       
-          <label for="psw-repeat"><b>DATE</b></label>
-          <input type="date" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+          
+
+          <label for="psw-repeat"><b>DATE OF REPORTING</b></label><br>
+          <input type="date" placeholder="Enter the date" name="psw-repeat" id="psw-repeat" required>
+
+          <br>
+
+          <form action="/action_page.php" class="cfile"><br>
+            <b>UPLOAD IMAGE OF THE NUMBER PLATE</b><br>
+            <input type="file" id="myFile" name="filename">
+           </form>
+         
           <hr>
       
           <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-          <button type="submit" class="registerbtn">Report</button>
+          <button type="submit" class="registerbtn">Submit</button>
         </div>
       
        
@@ -85,5 +95,6 @@ a {
   background-color: #f1f1f1;
   text-align: center;
 }
+
 </style>
 </html>
