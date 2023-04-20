@@ -6,28 +6,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
-<body >
+<body>
   
 
   <div class="container">
     <div class="card">
-        <a class="singup">Sign Up</a>
+        <a class="singup">REPORT</a>
         <div class="inputBox">
             <input type="text" required="required">
-            <span class="user">NAME</span>
+            <span class="user">VEHICLE TYPE</span>
         </div>
         <div class="inputBox">
           <input type="text" required="required">
-          <span>EMAIL</span>
+          <span>VEHICLE MODEL</span>
       </div>
-
         <div class="inputBox">
-            <input type="text" required="required">
-            <span>UID</span>
-        </div>
-        <div class="inputBox">
-          <input type="date" required="required">
-          <span>DATE</span>
+          <input type="image" required="required">
+          <span>PHOTO OF VEHICLE</span>
       </div>
 
         <div class="inputBox">
@@ -35,13 +30,16 @@
             <span>Password</span>
         </div>
 
-        <button class="enter">SignUp </button>
+        <button class="enter">SUBMIT</button>
 
     </div>
   </div>
 
 </body>
 <style>
+  body{
+    background-color:#1f1f1f
+  }
 .singup {
   color: #000;
   text-transform: uppercase;
@@ -57,12 +55,13 @@
   justify-content: center;
   align-items: center;
   /* min-height: 300px; */
-  width: 400px;
-  height: 600px;
+  width: 600px;
+  height: 700px;
   flex-direction: column;
   gap: 35px;
   border-radius: 15px;
-  background: #e3e3e3;
+  background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
        
   border-radius: 8px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -71,7 +70,7 @@
 .inputBox,
 .inputBox1 {
   position: relative;
-  width: 250px;
+  width: 350px;
 }
 
 .inputBox input,
