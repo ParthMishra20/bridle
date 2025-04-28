@@ -17,12 +17,12 @@ This is my first coding project, a static website called Bridle. The site has a 
 
 ## Screenshots
 
-### Login Page
+### Landing Page
 
-![Login Page](img/bridle.png)
+![Landing Page](img/landingpage.png)
 
 ### Report Form
 
-![Report Form](img/bridle-removebg-preview.png)
+![Report Form](img/reportform.png)
 
 This project was built to practice basic HTML/CSS skills as my first web development project.
